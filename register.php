@@ -1,7 +1,7 @@
 <?php
 include 'config.php';
 
-$hunterApiKey = '0e78259b7ff926bbadf5f4ef1c17d1d2a64a59fd';
+$hunterApiKey = '***********';  // Add your hunter API Key
 // Function to verify an email using the Hunter API
 function verifyEmail($email, $hunterApiKey)
 {
