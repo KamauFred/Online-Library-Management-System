@@ -5,12 +5,19 @@ An all-encompassing online library management system designed to elevate the lib
 
 ### User-friendly Interface
 
-- Intuitive and responsive design for seamless navigation.
+- Intuitive and responsive design for smooth navigation.
 - Easily accessible browse page where users can view and read available books.
 
 ### Authentication
 
 - Secure user authentication to protect user accounts and ensure data integrity.
+
+### Email Validation (Hunter API)
+
+- Integration with the Hunter API for email validation during user authentication.
+- Utilizes the Hunter API to check the validity of entered email addresses, ensuring accurate and genuine user registration.
+- Enhances data integrity and user experience by preventing registration with invalid or mistyped email addresses.
+- Follow the Hunter API documentation for setup instructions, obtain API keys and configure the integration in your project.
 
 ### Borrow Page
 
@@ -19,7 +26,9 @@ An all-encompassing online library management system designed to elevate the lib
 
 ### Payment Integration (M-Pesa)
 
-- Seamless payment integration with M-Pesa, allowing users to conveniently pay for borrowed books.
+- Integration with the M-Pesa API for convenient and secure payment processing.
+- Allows users to conveniently pay for borrowed books using the widely used M-Pesa mobile payment system.
+- Follow the M-Pesa API documentation to set up and configure the integration in your project.
 
 ### Donate Page
 
