@@ -47,4 +47,4 @@ An all-encompassing online library management system designed to elevate the lib
 - Real-time updates on orders to be delivered, ensuring prompt and accurate deliveries.
 
 ##Screenshots
-![Admin Login](tomimages/code_snaps/admin%20login%20form.png)
+![Admin Login](tomimages/code%snaps/admin%20login%20form.png)
