@@ -49,7 +49,7 @@ An all-encompassing online library management system designed to elevate the lib
 ## Screenshots
 ![Admin Login](tomimages/codesnaps/admin%20login%20form.png)
 ![Borrow Page](tomimages/codesnaps/borrow%20page.png)
-![Delivery Staff Login](tomimages/codesnaps/delivery%20login%20form.png)
+![Delivery Staff Login](tomimages/codesnaps/deliverylogin%20form.png)
 ![Donate Page](tomimages/codesnaps/donate%20form.png)
 ![Payment Page](tomimages/codesnaps/payment%20form.png)
 ![Main PAge](tomimages/codesnaps/Tom-Mboya-Library.png)
