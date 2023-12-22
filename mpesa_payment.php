@@ -25,8 +25,8 @@ if (isset($_GET['order_id'])) {
   echo 'Order ID not provided.';
 }
 
-$consumerKey = 'DMX8bPISczshYOOUZH9LzrNhrA8wzNzc';
-$consumerSecret = 'hnXKaMnIZ2FMmgpi';
+$consumerKey = ''; //Add your consumer key
+$consumerSecret = ''; //Add your consumer secret
 
 $headers = ['Content-Type:application/json; charset=utf8'];
 
@@ -56,7 +56,7 @@ $CallBackURL = 'https://sparrow-accurate-dingo.ngrok-free.app/Tom%20Mboya%20Libr
 $AccountReference = $PartyA  . ' For Order No - ' .$order_id;
 $TransactionDesc = 'Order No - ' ;
 $Amount = $price;
-$Passkey = 'bfb279f9aa9bdbcf158e97dd71a467cd2e0c893059b10f78e6b72ada1ed2c919';
+$Passkey = ''; //Add your PassKey
 
 $Password = base64_encode($BusinessShortCode.$Passkey.$Timestamp);
 
