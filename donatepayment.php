@@ -5,8 +5,8 @@ include 'config.php';
 $donorphonenumber = mysqli_real_escape_string($conn, $_POST['donorphonenumber']);
 $donoramount = mysqli_real_escape_string($conn, $_POST['donoramount']);
 
-$consumerKey = 'DMX8bPISczshYOOUZH9LzrNhrA8wzNzc';
-$consumerSecret = 'hnXKaMnIZ2FMmgpi';
+$consumerKey = ''; //Add your Consumer Key
+$consumerSecret = ''; //Add your consumer secret
 
 $headers = ['Content-Type:application/json; charset=utf8'];
 
@@ -36,7 +36,7 @@ $CallBackURL = 'https://sparrow-accurate-dingo.ngrok-free.app/Tom%20Mboya%20Libr
 $AccountReference = 'Donation to Tom Mboya Library';
 $TransactionDesc = 'Order No - ' ;
 $Amount = $donoramount;
-$Passkey = 'bfb279f9aa9bdbcf158e97dd71a467cd2e0c893059b10f78e6b72ada1ed2c919';
+$Passkey = ''; //Add your Passkey
 
 $Password = base64_encode($BusinessShortCode.$Passkey.$Timestamp);
 
